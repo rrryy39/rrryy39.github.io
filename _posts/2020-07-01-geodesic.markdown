@@ -2,7 +2,7 @@
 layout: post
 title:  "Spiral scanning approach for near-zero-drift mapping in Real life"
 time: "May 2022 - Present"
-image: /images/Hardware.png
+image: /images/hardware.png
 categories: research
 authors: "<strong>Xinzhi Yan</strong>"
 ---
