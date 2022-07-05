@@ -7,6 +7,6 @@ categories: research
 background: https://ieeexplore.ieee.org/document/9561860
 authors: "Daqian Chen, Tina Tian, Luyuan Wang, <strong>Xinzhi Yan</strong>"
 ---
-Our Goal is developing an in-pipe localization and mapping strategy which can be modularly deployed to any in-pipe service robot or mobile system. Task 1 establishes a minimum viable software framework that serves as the foundation for the Simultaneous Localization and Mapping (SLAM) algorithms and other supporting software architecture for in-pipe mapping and inspection applications. Task 2 provides a development path to create a minimum viable product of the proposed sensor prototype hardware and its interfacing software that enables heterogeneous sensory information fusion.
+Our mission is developing an in-pipe localization and mapping strategy which can be modularly deployed to any in-pipe service robot or mobile system. First goal is to establish a minimum viable software framework that serves as the foundation for the Simultaneous Localization and Mapping (SLAM) algorithms and other supporting software architecture for in-pipe mapping and inspection applications. Second goal is to provide a development path to create a minimum viable product of the proposed sensor prototype hardware and its interfacing software that enables heterogeneous sensory information fusion.
 
 
