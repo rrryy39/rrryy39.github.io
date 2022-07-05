@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Geodesic Complexity of Motion Planning on Lollipop Graph"
-time: "June 2020 - Present"
-image: /images/geodesic.png
+title:  "Spiral scanning approach for near-zero-drift mapping in Real life"
+time: "May 2022 - Present"
+image: /images/Hardware.png
 categories: research
-background: https://arxiv.org/abs/2002.07693
-authors: "<strong>Ruijie Fu</strong>, Michael Harrison, Florian Frick"
+authors: "<strong>Xinzhi Yan</strong>"
 ---
-Similar to the definition of topological complexity, geodesic complexity is a property that encodes the minimum number of continuous path planning rules needed to describe the geodesic between robot system's starting configuration and ending configuration in a space. It is invariant under isometries. We find a metric space that potentially has higher geodesic complexity than topological complexity, and study it by using the stratification method as given in the background paper above.
+After a succecful run in the simulator, I am trying to bring the brand new scanning pattern into real life. Skills include programming the STM32 board, PID velocity control of the motors, CAM and serial comunications, wiring and cable mangement, writing front and backend of the SLAM software and etc.

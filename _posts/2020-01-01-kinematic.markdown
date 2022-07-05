@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Motion Planning for Kinematic Snake under singular configuration"
-time: "January - October 2020"
-image: /images/kinematic.png
+title:  "Spiral scanning approach for near-zero-drift mapping in Webots Simulator"
+time: "January - June 2022"
+image: /images/webots.gif
 categories: research
-background: https://epjst.epj.org/articles/epjst/abs/2015/16/epjst150085/epjst150085.html
-arxiv: https://arxiv.org/abs/2102.01506
-authors: "<strong>Ruijie Fu</strong>, Shuoqi Chen, Ross Hatton, Howie Choset"
+
+authors: "<strong>Xinzhi Yan</strong>"
 ---
-Kinematic snake runs into singular configurations when the nonholonomic constraints are violated (e.g. one or more of the constraint equations becomes a linear combination of the others), at which point the matrix inverse becomes analytically unsolvable and thus causing discontinuities. We propose an optimization algorithm for finding high-efficient gait of nonholonomic kinematic snake that purposely enclose the singularity region, which ultimately produces the best gaits given specified input energy cost functions. Refer to thebackground paper linked above for the application of geometric mechanics to studying robot locomotion.
+To improve our slam backend, a brand new idea has been implemented for solving long distance drift. The difference between the current sensor payload and the new idea is the scanning pattern. Over longer scans, this drift accumulates as the system relies entirely on the visual-inertial odometry that gives an accurate estimation of the robot pose. In our new method, instead of using a laser ring projector, we plan to use a normal laser line projector and a camera, and they revolve around the pipe’s axial axis (shown in Figure 6). The advantage of this method is that while revolving, after one revolution, it will scan the same physical location twice, the first being in the previous revolution. Using this, we can perform a loop closure and correct the drift after each revolution in real time. 
+
