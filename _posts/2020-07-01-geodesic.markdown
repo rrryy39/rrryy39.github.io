@@ -6,4 +6,4 @@ image: /images/hardware.png
 categories: research
 authors: "<strong>Xinzhi Yan</strong>"
 ---
-After a succecful run in the simulator, I am trying to bring the brand new scanning pattern into real life. Skills include programming the STM32 board, PID velocity control of the motors, CAM and serial comunications, wiring and cable mangement, writing front and backend of the SLAM software and etc.
+After a succecful run in the simulator, I am trying to bring the brand new scanning pattern into real life. Skills include programming the STM32 board, PID velocity control of the motors, CAM and serial comunications, wiring and cable mangement, writing sensor drivers and front/backend of the SLAM software and etc.
